@@ -28,8 +28,9 @@
 
 .bullet__item--title {
     color      : #484848;
-    font-size  : 16px;
+    font-size  : 14px;
     font-weight: bold;
+    text-align : center;
 }
 
 .bullet__item--image {
