@@ -6,7 +6,7 @@ export const getBulletsAsTSXList = (
     bullets: BulletsSchema
 ) => (
     bullets.map((bullet: any, index) => {
-        console.log("mi bullet es:", bullet)
+
         return <Bullet
             key={index}
             src={bullet.image}

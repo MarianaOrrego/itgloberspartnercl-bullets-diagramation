@@ -21,7 +21,6 @@ const Bullet = ({ src, titleBullet, link }: Props) => {
 
     const handles = useCssHandles(CSS_HANDLES)
 
-    console.log("Datos bullet", src, titleBullet, link)
     return (
         <div className={handles["bullet__item"]}>
             <Link
